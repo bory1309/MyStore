@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<!-- Some templates -->
+	<definition name="common" template="/WEB-INF/layout/classic.jsp">
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+		<put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+	</definition>
+	
+	<definition name="index" extends="common">
+		<put-attribute name="title" value="index" />
+		<put-attribute name="body" value="/WEB-INF/views/index.jsp" />
+	</definition>
+	
+	<definition name="admin" extends="common">
+		<put-attribute name="title" value="admin" />
+		<put-attribute name="body" value="/WEB-INF/views/admin.jsp" />
+	</definition>
+	
+	<definition name="adminCity" extends="common">
+		<put-attribute name="title" value="admin" />
+		<put-attribute name="body" value="/WEB-INF/views/adminCity.jsp" />
+	</definition>
+	
+	<definition name="adminEmail" extends="common">
+		<put-attribute name="title" value="admin" />
+		<put-attribute name="body" value="/WEB-INF/views/adminEmail.jsp" />
+	</definition>
+	
+	<definition name="adminFirstName" extends="common">
+		<put-attribute name="title" value="admin" />
+		<put-attribute name="body" value="/WEB-INF/views/adminFirstName.jsp" />
+	</definition>
+	
+	<definition name="adminLastName" extends="common">
+		<put-attribute name="title" value="admin" />
+		<put-attribute name="body" value="/WEB-INF/views/adminLastName.jsp" />
+	</definition>
+	
+	<definition name="adminPerson" extends="common">
+		<put-attribute name="title" value="admin" />
+		<put-attribute name="body" value="/WEB-INF/views/adminPerson.jsp" />
+	</definition>
+	
+	<definition name="adminStreet" extends="common">
+		<put-attribute name="title" value="admin" />
+		<put-attribute name="body" value="/WEB-INF/views/adminStreet.jsp" />
+	</definition>
+	
+	<definition name="adminShoes" extends="common">
+		<put-attribute name="title" value="admin" />
+		<put-attribute name="body" value="/WEB-INF/views/adminShoes.jsp" />
+	</definition>
+	
+	<definition name="shoes" extends="common">
+		<put-attribute name="title" value="admin" />
+		<put-attribute name="body" value="/WEB-INF/views/shoes.jsp" />
+	</definition>
+	
+	<definition name="brand" extends="common">
+		<put-attribute name="title" value="admin" />
+		<put-attribute name="body" value="/WEB-INF/views/brand.jsp" />
+	</definition>
+	
+	<definition name="model" extends="common">
+		<put-attribute name="title" value="admin" />
+		<put-attribute name="body" value="/WEB-INF/views/model.jsp" />
+	</definition>
+	
+	<definition name="color" extends="common">
+		<put-attribute name="title" value="admin" />
+		<put-attribute name="body" value="/WEB-INF/views/color.jsp" />
+	</definition>
+	
+	<definition name="season" extends="common">
+		<put-attribute name="title" value="admin" />
+		<put-attribute name="body" value="/WEB-INF/views/season.jsp" />
+	</definition>
+	
+	
+</tiles-definitions>
